@@ -6,10 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js",
-    "start": "electron main.js",
-    "dev": "concurrently --kill-others \"node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --content-base . --history-api-fallback\" \"electron main.js\"",
-    "watch": "watchify app/js/app.js -t babelify -o dist/app.js --debug --verbose"
-  },
+    "start": "electron main.js"
+   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jiteshbhadra/antdimpl.git"
